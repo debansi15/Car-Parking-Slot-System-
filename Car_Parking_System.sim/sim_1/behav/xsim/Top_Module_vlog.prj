@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Car_Parking_System.srcs/sources_1/new/Parking_System.v" \
+"../../../../Car_Parking_System.srcs/sources_1/new/Seven_Segment.v" \
+"../../../../Car_Parking_System.srcs/sources_1/new/Top_Module.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
